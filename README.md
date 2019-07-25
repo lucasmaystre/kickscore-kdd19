@@ -7,12 +7,12 @@ This repository contains the code to reproduce the results described in the pape
 
 ## Instructions
 
-Start by clone the Git repository:
+Start by cloning the Git repository:
 
     git clone https://github.com/lucasmaystre/kickscore-kdd19.git
 
 Next, download the data from [Zenodo][2]. Extract the contents of the archive
-inside the top-level directory of the repository, using
+inside the top-level directory of the repository, by using
 
     tar xvf kickscore-kdd-20190725.tar.gz
 
@@ -20,13 +20,12 @@ Set up an environment variable pointing to the data folder:
 
     export KSEVAL_DATASETS=path/to/data
 
-You might want to put this last line in your `~/.bashrc` to avoid having to
-type it every time you open a terminal. Then, install the required Python
-libraries:
+You might want to put this line in your `~/.bashrc` to avoid typing it every
+time you open a terminal. Then, install the required Python libraries:
 
     pip install -r requirements.txt
 
-Now you can start a notebook server as follows as follows:
+Now you can start a notebook server as follows:
 
     cd notebooks
     jupyter notebook
