@@ -1,0 +1,10 @@
+{
+    "margin": ["lin", {
+        "start": 0.3,
+        "stop": 0.4
+    }],
+    "cvar": ["geom", {
+        "start": 0.1,
+        "stop": 2.0
+    }]
+}
